@@ -1,0 +1,9 @@
+body {
+    background: url(../images/bright_squares/bright_squares.png);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    body {
+        background: url(../images/bright_squares/bright_squares_@2X.png);       
+    }
+}

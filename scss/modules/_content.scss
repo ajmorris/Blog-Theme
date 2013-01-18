@@ -1,0 +1,4 @@
+.content {
+    background: $white;
+    @include box-shadow(0px 0px 5px darken($gray, 20%) );
+}
