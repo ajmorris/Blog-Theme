@@ -7,30 +7,28 @@
     padding: 3px 20px;
     border-bottom: 1px solid darken($gray, 10%);
     ul {
-
         margin-bottom: 0px;
-        
         li {
             display: inline-block;
             font-size: 1.2em;
             margin-right: 10px;
         }
-
     }
 }
 
 .logo {
     margin: 50px 0; 
     padding: 0 40px;
+    font-family: $headerFontFamily;
+    text-shadow: 1px 1px #fff, -1px -1px #333;
     .blog-title {
         color: $blue;
-        margin-right: 10%;
+        margin-right: 25%;
         font-size: 4em;
-        text-transform: uppercase;
     }
-
     .blog-description {
         font-size: 3em;
+        color: darken($gray, 50%);
     }
 
 }

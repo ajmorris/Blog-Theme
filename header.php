@@ -29,7 +29,7 @@
             <div class="container">
                 <div class="row">
                     <div class="twelve columns logo">
-                        <span class="blog-title"><?php echo bloginfo('name'); ?></span>    
+                        <span class="blog-title"><a href="<?php echo home_url('/'); ?>"><?php echo bloginfo('name'); ?></a></span>    
                         <span class="blog-description"><?php echo bloginfo('description'); ?></span>
                     </div>
                 </div> 

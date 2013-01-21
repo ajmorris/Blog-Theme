@@ -15,4 +15,16 @@
     }
     add_action( 'init', 'theme_initializer' );
 
+
+    /**
+     * Add the Read More
+     * @param $more [description]
+     * @return [type]
+     */
+    function new_excerpt_more($more) {
+       global $post;
+        return ' <a href="'. get_permalink($post->ID) . '">Read the Rest...</a>';
+    }
+    add_filter('excerpt_more', 'new_excerpt_more');
+
 ?>

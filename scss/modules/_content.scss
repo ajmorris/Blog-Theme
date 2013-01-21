@@ -1,4 +1,25 @@
 .content {
+    padding: 50px 0;
     background: $white;
     @include box-shadow(0px 0px 5px darken($gray, 20%) );
+
+    .entry {
+        margin-top: 20px;
+
+        p {
+            font-size: 1.2em;
+        }
+    }
+}
+
+.entry-title {
+    margin-bottom: 20px;
+}    
+
+article {
+    margin-bottom: 40px;
+}
+
+.page-numbers {
+    font-size: 1.2em;
 }

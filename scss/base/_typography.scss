@@ -1,0 +1,57 @@
+// Heading Fonts
+@font-face {
+    font-family: 'crimson_textroman';
+    src: url('../fonts/crimson/crimsontext-roman-webfont.eot');
+    src: url('../fonts/crimson/crimsontext-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/crimson/crimsontext-roman-webfont.woff') format('woff'),
+         url('../fonts/crimson/crimsontext-roman-webfont.ttf') format('truetype'),
+         url('../fonts/crimson/crimsontext-roman-webfont.svg#crimson_textroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'crimson_textitalic';
+    src: url('../fonts/crimson/crimsontext-italic-webfont.eot');
+    src: url('../fonts/crimson/crimsontext-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/crimson/crimsontext-italic-webfont.woff') format('woff'),
+         url('../fonts/crimson/crimsontext-italic-webfont.ttf') format('truetype'),
+         url('../fonts/crimson/crimsontext-italic-webfont.svg#crimson_textitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// Body Fonts
+@font-face {
+    font-family: 'open_sans_lightregular';
+    src: url('../fonts/opensans/opensans-light-webfont.eot');
+    src: url('../fonts/opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-light-webfont.svg#open_sans_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_lightitalic';
+    src: url('../fonts/opensans/opensans-lightitalic-webfont.eot');
+    src: url('../fonts/opensans/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-lightitalic-webfont.svg#open_sans_lightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
