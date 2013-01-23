@@ -6185,14 +6185,16 @@ body {
 /* line 15, ../scss/modules/_content.scss */
 .entry-title {
   margin-bottom: 20px;
+  color: #1990db;
+  text-shadow: 1px 1px 1px #eeeeee;
 }
 
-/* line 19, ../scss/modules/_content.scss */
+/* line 21, ../scss/modules/_content.scss */
 article {
   margin-bottom: 40px;
 }
 
-/* line 23, ../scss/modules/_content.scss */
+/* line 25, ../scss/modules/_content.scss */
 .page-numbers {
   font-size: 1.2em;
 }
