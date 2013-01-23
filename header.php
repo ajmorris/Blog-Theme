@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="<?php bloginfo(template_directory); ?>/css/app.css">
         <!-- Need to include this, but through the use of require or background or something like that. -->
         <!-- <script src="js/vendor/modernizr-2.6.2.min.js"></script> -->
+        <!-- Might want to include wp_head() -->
+        <?php wp_head(); ?>
     </head>
     <body>
         <!--[if lt IE 7]>
