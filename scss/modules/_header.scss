@@ -23,11 +23,13 @@
     text-shadow: 1px 1px #fff, -1px -1px #333;
     .blog-title {
         color: $blue;
+        font-family: $headerFontFamily;
         font-size: 4em;
         float: left;
     }
     .blog-description {
         font-size: 3em;
+        font-family: $headerFontFamily;
         padding-top: 12px;
         color: darken($gray, 50%);
         float: right;
