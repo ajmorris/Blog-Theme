@@ -6616,3 +6616,8 @@ span.says {
 .comment-list li #respond p {
   margin-left: 0;
 }
+
+/* line 1, ../scss/helpers/_helpers.scss */
+.gist-data .hightlight {
+  background: white;
+}
