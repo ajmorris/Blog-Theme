@@ -31,8 +31,8 @@
             <div class="container">
                 <div class="row">
                     <div class="twelve columns logo">
-                        <span class="blog-title"><a href="<?php echo home_url('/'); ?>"><?php echo bloginfo('name'); ?></a></span>    
-                        <span class="blog-description"><?php echo bloginfo('description'); ?></span>
+                        <div class="blog-title"><a href="<?php echo home_url('/'); ?>"><?php echo bloginfo('name'); ?></a></div>
+                        <div class="blog-description"><?php echo bloginfo('description'); ?></div>
                     </div>
                 </div> 
             </div>
