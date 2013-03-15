@@ -6156,12 +6156,14 @@ body {
 /* line 24, ../scss/modules/_header.scss */
 .logo .blog-title {
   color: #1990db;
+  font-family: "crimson_textroman", "Georgia", serif;
   font-size: 4em;
   float: left;
 }
-/* line 29, ../scss/modules/_header.scss */
+/* line 30, ../scss/modules/_header.scss */
 .logo .blog-description {
   font-size: 3em;
+  font-family: "crimson_textroman", "Georgia", serif;
   padding-top: 12px;
   color: #6e6e6e;
   float: right;
